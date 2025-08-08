@@ -65,7 +65,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50 mt-50">
       <Header />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -75,7 +75,7 @@ export default function ContactPage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4 mt-60">Contact Us</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Get in touch with us for custom sublimation services. We're here to help bring your ideas to life!
           </p>
@@ -250,14 +250,14 @@ export default function ContactPage() {
           
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5!2d73.7674!3d33.1471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f8b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sNangi%2C+Mirpur%2C+Azad+Jammu+%26+Kashmir!5e0!3m2!1sen!2s!4v1234567890"
+              src="https://maps.google.com/maps?q=33.149639,73.7345&z=15&output=embed"
               width="100%"
               height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Abdulzzz Services Hub - Nangi, Mirpur AJK"
+              title="Exact Location - 33.149639, 73.7345"
             ></iframe>
           </div>
           
