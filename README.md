@@ -73,7 +73,6 @@ A modern e-commerce website for Abdulzzz Services, specializing in custom sublim
 6. **Open your browser**
    - Customer site: http://localhost:3000
    - Admin panel: http://localhost:3000/admin/login
-   - Default admin credentials: `admin` / `admin123`
 
 ## Database Management
 
