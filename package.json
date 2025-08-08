@@ -1,0 +1,50 @@
+{
+  "name": "abdulzzz-services-hub",
+  "version": "1.0.0",
+  "description": "Abdulzzz Services Hub - Custom Sublimation and Printing Services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "tsx lib/seed.ts",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "@types/bcryptjs": "^2.4.6",
+    "autoprefixer": "^10.4.16",
+    "bcryptjs": "^3.0.2",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.292.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "tailwindcss": "^3.3.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/uuid": "^9.0.6",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^14.0.0",
+    "prisma": "^6.13.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.2.0"
+  },
+  "keywords": [
+    "sublimation",
+    "custom-printing",
+    "personalized-items",
+    "pakistan"
+  ],
+  "author": "Abdulzzz Services Hub",
+  "license": "MIT"
+}
