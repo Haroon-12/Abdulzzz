@@ -115,11 +115,11 @@ export default function AdminLogin() {
           </button>
         </form>
 
-        <div className="mt-6 text-center text-sm text-gray-600">
+        {/* <div className="mt-6 text-center text-sm text-gray-600">
           <p>Default credentials:</p>
           <p>Username: admin</p>
           <p>Password: admin123</p>
-        </div>
+        </div> */}
       </motion.div>
     </div>
   );
